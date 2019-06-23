@@ -5,7 +5,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "lerna run start --parallel"
+    "start": "lerna run start --parallel",
+    "build": "yarn workspace @monorepo-ui/app build"
   },
   "workspaces": [
     "packages/*"
