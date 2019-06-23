@@ -20,6 +20,9 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
+    "docz": "^1.2.0",
+    "docz-theme-default": "^1.2.0",
+    "gatsby-theme-docz": "^1.2.0",
     "prettier": "^1.18.2"
   },
   "keywords": [

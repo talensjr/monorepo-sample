@@ -1,0 +1,180 @@
+{
+  "config": {
+    "title": "Ui",
+    "description": "A simple starter to get up and developing quickly with Gatsby",
+    "menu": [],
+    "version": "0.1.0",
+    "repository": "https://github.com/gatsbyjs/gatsby-starter-default",
+    "native": false,
+    "codeSandbox": false,
+    "themeConfig": {},
+    "separator": "-",
+    "typescript": true
+  },
+  "props": [
+    {
+      "key": "src/components/header.tsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "header",
+          "methods": [],
+          "props": {
+            "siteTitle": {
+              "defaultValue": null,
+              "description": "",
+              "name": "siteTitle",
+              "required": true,
+              "type": {
+                "name": "any"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/components/image.tsx",
+      "value": []
+    },
+    {
+      "key": "src/components/layout.tsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "layout",
+          "methods": [],
+          "props": {}
+        }
+      ]
+    },
+    {
+      "key": "src/components/seo.tsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "SEO",
+          "methods": [],
+          "props": {
+            "description": {
+              "defaultValue": null,
+              "description": "",
+              "name": "description",
+              "required": true,
+              "type": {
+                "name": "any"
+              }
+            },
+            "lang": {
+              "defaultValue": null,
+              "description": "",
+              "name": "lang",
+              "required": true,
+              "type": {
+                "name": "any"
+              }
+            },
+            "meta": {
+              "defaultValue": null,
+              "description": "",
+              "name": "meta",
+              "required": true,
+              "type": {
+                "name": "any"
+              }
+            },
+            "title": {
+              "defaultValue": null,
+              "description": "",
+              "name": "title",
+              "required": true,
+              "type": {
+                "name": "any"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/pages/404.tsx",
+      "value": []
+    },
+    {
+      "key": "src/pages/index.tsx",
+      "value": []
+    },
+    {
+      "key": "src/components/h1/h1.tsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "H1",
+          "methods": [],
+          "props": {}
+        }
+      ]
+    },
+    {
+      "key": "src/components/button/button.tsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Button",
+          "methods": [],
+          "props": {}
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "key": "src/components/button/button-doc.mdx",
+      "value": {
+        "name": "Button",
+        "route": "/ui/button",
+        "id": "367abc9b12a80972b2ad0b60b01aea84",
+        "filepath": "src/components/button/button-doc.mdx",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/packages/ui/src/components/button/button-doc.mdx",
+        "slug": "src-components-button-button-doc",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "button",
+            "depth": 1,
+            "value": "Button"
+          },
+          {
+            "slug": "props",
+            "depth": 2,
+            "value": "Props"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/components/h1/h1-doc.mdx",
+      "value": {
+        "name": "H1",
+        "route": "/ui/h1",
+        "id": "4152c3e849cfdf4ac5a87659178b9c49",
+        "filepath": "src/components/h1/h1-doc.mdx",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/packages/ui/src/components/h1/h1-doc.mdx",
+        "slug": "src-components-h1-h1-doc",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "h1",
+            "depth": 1,
+            "value": "h1"
+          },
+          {
+            "slug": "props",
+            "depth": 2,
+            "value": "Props"
+          }
+        ]
+      }
+    }
+  ]
+}
