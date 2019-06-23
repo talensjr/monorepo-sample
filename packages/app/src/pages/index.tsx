@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Button } from "@monorepo-ui/ui"
+import { Button, H1 } from "@monorepo-ui/ui"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -18,6 +18,7 @@ const IndexPage = () => (
     <Link to="/page-2/">Go to page 2</Link>
     <Button>hey button!!</Button>
     <Button>hey button 2 :O!!</Button>
+    <H1>H1 yeyyyy</H1>
   </Layout>
 )
 
